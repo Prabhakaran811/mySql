@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #bulb{
+            height: 500px;
+            width: 350px;
+        }
+
+        
+    </style>
+</head>
+<body>
+
+      <button  onclick="turnon()">on</button>
+      <img id="bulb" src="https://eportfoliojoebarker.files.wordpress.com/2015/05/light_bulb_off.png">
+      <button  onclick="turnoff()">off</button><br>
+      <script>
+        function turnon(){
+            document.getElementById("bulb").src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ56BLjtKncYZyUl63TOmX4Hi88m-ZroKcfl40ZbBri46WZo6nGjL93lBLV-abbUxCStIM&usqp=CAU";
+        }
+
+        function turnoff() {
+            document.getElementById("bulb").src="https://eportfoliojoebarker.files.wordpress.com/2015/05/light_bulb_off.png";
+        }
+      </script>
+
+    </body>
+</html>
